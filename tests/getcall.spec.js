@@ -3,7 +3,7 @@ import { log } from "node:console"
 
 test("Test Get API" , async ({request})=>{
 
-   console.log("auto trigger testt"); 
+   console.log("auto trigger test"); 
 
    const  response =await request.get("https://jsonplaceholder.typicode.com/posts/1")
    console.log(response)
